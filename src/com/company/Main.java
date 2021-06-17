@@ -21,7 +21,8 @@ public class Main {
         //create array out of the input of phone number
         char[] receiveNumber = new char[7];
 
-
+        //loop through hashmap to see if a key matches each part of the phone number
+        // and add value to receive number array
         for (int i = 0; i < phoneNumber.length(); i++) {
             char key = phoneNumber.charAt(i);
             if (numberMap.containsKey(key)) {
