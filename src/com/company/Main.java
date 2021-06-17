@@ -11,7 +11,7 @@ public class Main {
         numberMap.put('2', '8' );
         numberMap.put('3', '7' );
         numberMap.put('4', '6' );
-        numberMap.put('5', '5' );
+        numberMap.put('5', '0' );
         numberMap.put('6', '4' );
         numberMap.put('7', '3' );
         numberMap.put('8', '2' );
