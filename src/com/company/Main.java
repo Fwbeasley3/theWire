@@ -4,7 +4,7 @@ import java.util.HashMap;
 
 public class Main {
 
-    public static void pagerEncoder(String phoneNumber) {
+    public static void pagerDecoder(String phoneNumber) {
         HashMap<Character, Character> numberMap = new HashMap<>();
         numberMap.put('0', '5' );
         numberMap.put('1', '9' );
@@ -36,7 +36,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        pagerEncoder("7143432");
+        pagerDecoder("7143432");
 
 
     }
